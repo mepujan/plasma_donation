@@ -1,0 +1,110 @@
+.container{
+    width: 1200px;
+    margin:0,auto
+}
+.aboutus{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aboutus .logo{
+    float: left;
+    padding: 20px;
+    background-color: red;
+    margin-right: 40px;
+}
+
+.wedo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.wedo h2{
+    color: red;
+}
+
+.cards{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cards .card-left{
+    float: left;
+}
+
+.cards .card-left .card-left-top{
+    margin-left: 50px;
+}
+
+.cards .card-left .card-left-top .card1{
+    float: left;
+    width: 200px;
+    background-color: #ffb8b8;
+    padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+}
+.cards .card-left .card-left-top .card2{
+    float: right;
+    width: 200px;
+    background-color: #ffb8b8;
+    padding: 10px;
+    text-align: center;
+}
+
+.cards .card-left .card-left-bottom{
+    margin-left: 50px;
+}
+.cards .card-left .card-left-bottom .card3{
+    float: left;
+    margin-top: 20px;
+    margin-left: 25%;
+    width: 200px;
+    background-color: #ffb8b8;
+    padding: 10px;
+    text-align: center;
+}
+.cards .card-right  .card-right-top .card-right-top-left{
+    margin-left: 500px;
+}
+.cards .card-right  .card-right-top .card-right-top-left .card1{
+    float: left;
+    background-color: #ffb8b8;
+    padding-top: 50px;
+    color: red;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+.cards .card-right  .card-right-top .card-right-top-right .card2{
+    float: left;
+    background-color: #ffb8b8;
+    padding-top: 50px;
+    color: red;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+}
+
+
+
+
+.weare{
+    background-color: #ffe9e9;
+}
+.weare .text{
+    float: left;
+    width: 550px;
+    margin: 10px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.weare .text p{
+    margin-bottom: 20px;
+}
+.weare .image{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    float: right;
+    width: 500px;
+}
