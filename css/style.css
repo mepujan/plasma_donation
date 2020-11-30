@@ -1,89 +1,92 @@
 .navbar {
-	margin:0 !important;
+    margin: 0 !important;
     padding-left: 15% !important;
     padding-top: 18px !important;
     padding-bottom: 18px !important;
-    background-color:#c4161c ;
+    background-color: #c4161c;
 }
 
-#navbarNav{
+#navbarNav {
     padding-left: 40%;
 }
-.nav-link{
+
+.nav-link {
     font-size: larger !important;
     font-weight: bold !important;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
-  }
-  body{
-    
+}
+
+body {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-  }
-  
+}
 
-  main{
+main {
     position: absolute;
-    top: 0;
     left: 0;
     width: 100%;
-  }
+}
 
-  .intro{
+.intro {
     background-color: #ffffff;
     padding: 10vh 0;
-  }
+}
 
-  .intro-content{
+.intro-content {
     height: 80vh;
     display: flex;
     flex-wrap: wrap;
-  }
+}
 
-  .form{
-      display: flex;
-      align-items: center;
-  }
-  
-  .intro-content div{
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.intro-content div {
     width: 50%;
-  }
-  
-  .intro-text p{
+}
+
+.intro-text p {
     text-align: left;
     color: #828282;
     line-height: 30px;
-  }
-  .container{
+}
+
+.container {
     width: 70%;
     margin: 0 auto;
-  }
-  
-  .header{
+}
+
+.header {
     height: 100vh;
-    color:#c4161c;
+    color: #c4161c;
     line-height: 50px;
     font-size: larger;
     font-weight: bold;
-  }
-  
-  .header-content{
+}
+
+.header-content {
     padding-top: 40vh;
     text-align: center;
-  }
-  
-  .header-content h1, .intro-content h1, .contact-section h1{
+}
+
+.header-content h1,
+.intro-content h1,
+.contact-section h1 {
     font-size: 42px;
-  }
-  
-  .form{
-      padding-left: 30%;
-  }
-  form.form button {
+}
+
+.form {
+    padding-left: 30%;
+}
+
+form.form button {
     float: left;
     width: 30px;
     height: 50px;
@@ -93,60 +96,112 @@
     color: black;
     font-size: 17px;
     border: none;
-    border-left: none; 
+    border-left: none;
     cursor: pointer;
-  }
-  .intro-text li {
+}
+
+.intro-text li {
     list-style-type: none;
     position: relative;
     padding-left: 15px;
     color: #c4161c;
-  }
-  
-  .intro li:before {
+}
+
+.intro li:before {
     content: "\2192 \0020";
     font-size: 20px;
     top: -6px;
     left: -10px;
     color: blue;
-  }
- 
-  .introduction{
+}
+
+.introduction {
     background-color: #c4161c;
     padding: 5vh 0;
-  }
-  .covid-content{
+}
+
+.covid-content {
     height: 20vh;
     display: flex;
     flex-wrap: wrap;
     color: white;
-  }
+}
 
-  .criteria-intro{
+.criteria-intro {
     background-color: #ffffff;
     padding: 10vh 0;
-  }
+}
 
-  .mid-section-intro{
+.mid-section-intro {
     height: 80vh;
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  .mid-section-intro div{
-    width: 33.33%;
-  }
+}
 
-  .card p{
+.card1 {
+    width: 35%;
+}
+
+.card2 {
+    width: 33%;
+}
+
+.card3 {
+    width: 32%;
+}
+
+.mid-section-intro div {
+    width: 33.33%;
+}
+
+.card p {
     color: #828282;
     line-height: 30px;
-  }
+}
 
-  .requirements {
+.requirements {
     background-color: #ffffff;
     padding: 10vh 0;
-  }
+}
 
-  .criteria-intro h3{
+.criteria-intro h3 {
     color: #c4161c;
-  }
+}
+
+@media screen and (max-width:360px) {
+    #navbarNav {
+        padding-left: 0%;
+    }
+    .intro-content {
+        height: 110vh;
+        width: fit-content;
+    }
+    .intro-text {
+        width: 100%;
+    }
+    .covid-content {
+        height: 50vh;
+    }
+    .mid-section-intro {
+        display: inline;
+        width: 100%;
+    }
+    .mid-section-intro .card1,
+    .mid-section-intro .card2,
+    .mid-section-intro .card3 {
+        width: 100%;
+    }
+    .requirements {
+        padding-top: 0px;
+    }
+    .form {
+        display: inline;
+        align-items: center;
+    }
+    .header {
+        height: 95vh;
+    }
+    .header-content {
+        padding-top: 40px;
+    }
+}
