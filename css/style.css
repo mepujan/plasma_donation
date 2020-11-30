@@ -205,3 +205,49 @@ form.form button {
         padding-top: 40px;
     }
 }
+
+@media screen and (max-width:425px) {
+    #navbarNav {
+        padding-left: 0%;
+    }
+    .intro-content {
+        height: 78vh;
+    }
+    .form {
+        display: inline;
+        align-items: center;
+    }
+    .header {
+        height: 70vh;
+    }
+    .header-content {
+        padding-top: 40px;
+    }
+    .covid-content {
+        height: 40vh;
+    }
+    .mid-section-intro {
+        display: inline;
+        width: 100%;
+    }
+    .mid-section-intro .card1,
+    .mid-section-intro .card2,
+    .mid-section-intro .card3 {
+        width: 100%;
+    }
+    .requirements {
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .intro-content {
+        height: 65vh;
+    }
+    .covid-content {
+        height: 25vh;
+    }
+    .header {
+        height: 55vh;
+    }
+}
