@@ -211,14 +211,14 @@ form.form button {
         padding-left: 0%;
     }
     .intro-content {
-        height: 78vh;
+        height: 105vh;
     }
     .form {
         display: inline;
         align-items: center;
     }
     .header {
-        height: 70vh;
+        height: 95vh;
     }
     .header-content {
         padding-top: 40px;
@@ -236,18 +236,27 @@ form.form button {
         width: 100%;
     }
     .requirements {
-        margin-top: -150px;
+        margin-top: -130px;
     }
 }
 
 @media screen and (max-width:375px) {
     .intro-content {
-        height: 80vh;
+        height: 110vh;
     }
     .covid-content {
-        height: 30vh;
+        height: 45vh;
     }
     .header {
-        height: 70vh;
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .header {
+        height: 100vh;
+    }
+    .intro-content {
+        height: 122vh;
     }
 }
