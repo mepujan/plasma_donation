@@ -38,7 +38,7 @@ main {
 }
 
 .intro-content {
-    height: 80vh;
+    height: 65vh;
     display: flex;
     flex-wrap: wrap;
 }
@@ -133,7 +133,7 @@ form.form button {
 }
 
 .mid-section-intro {
-    height: 80vh;
+    height: 60vh;
     display: flex;
     flex-wrap: wrap;
 }
