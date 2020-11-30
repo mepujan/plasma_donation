@@ -242,12 +242,12 @@ form.form button {
 
 @media screen and (max-width:375px) {
     .intro-content {
-        height: 65vh;
+        height: 80vh;
     }
     .covid-content {
-        height: 25vh;
+        height: 30vh;
     }
     .header {
-        height: 55vh;
+        height: 70vh;
     }
 }
