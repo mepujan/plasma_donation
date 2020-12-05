@@ -1,176 +1,110 @@
-
-header{
-    background-color: white;
-}
 .container{
     width: 1200px;
-   margin: 0 auto;
+    margin:0,auto
 }
-.header-top{
-    margin-top: 17px;
-    background-color: #c4161c;
-}
-
-.header-top .logo{
-    float: left;
-}
-
-.header-top .navbar{
-    float: right;
-    
-}
-.header-top .navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 2px;
-}
-
-.header-bottom{
-    background-image: url("../images/headerbackground.png");
-    background-repeat: no-repeat;
-}
-
-.header-bottom .heading {
-    color: red;
-    padding-top: 40px;
-    padding-bottom: 12px;
-    text-align: center;
-}
-
-.header-bottom .title .title1{
-    float: left;
-    padding-left: 400px;
-    padding-right: 37px;
-}
-
-
-/* main */
-
-.plasma-note-wrapper{
-    background-color: red;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    margin-top: 25px;
-}
-.card-wrapper{
-    background-color: #f0f0f0;
-    padding-top: 28px;
-    height: 100%;
-    
-}
-.cards{
-    width: 300px;
-    float: left;
-    margin-right: 10px;
-    background-color: #ffffff;
-    
-}
-.cards .card-left .card1 .divider img{
-    width: 30%;
-}
-.cards .card-left .card-mid{
-    color: red;
-}
-.cards .card-left .card-bottom ol {
-    margin-left: 30px;
-}
-
-.cards .card-left .card-bottom ul {
-    margin-left: 30px;
-}
-
-.cards .card-left .card-bottom h4 span {
-    color: red;
-}
-
-.covid-help .help-wrapper{
-    margin-left: 16px;
+.aboutus{
     margin-top: 20px;
-    margin-bottom: 60px;
-    padding-left: 14px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.aboutus .logo{
+    float: left;
+    padding: 20px;
     background-color: red;
-    width: 800px;
-    border-radius: 5%;
-}
-.some-of-donor{
-    background-color: #f0f0f0;
+    margin-right: 40px;
 }
 
-.some-of-donor .card-left {
-    background-color: #ffffff;
+.wedo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.wedo h2{
+    color: red;
+}
+
+.cards{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cards .card-left{
     float: left;
-    width: 250px;
-    height: 338px;
-    margin: 20px;
-    margin-left: 0px;
-
 }
 
-.some-of-donor .card-left .card1 .card-bottom h3 span{
-    color: #73b9e8;
+.cards .card-left .card-left-top{
+    margin-left: 50px;
 }
 
-
-
-/* footer */
-.footer-top{
-    background: #cb0008;
-    padding-bottom: 83px;
-    padding-top: 31px;
-
-}
-
-.footer-top .footer-top-wrapper-left{
+.cards .card-left .card-left-top .card1{
     float: left;
-    padding-left: 50px;
-    /* margin-bottom: 83px;
-    margin-top: 31px; */
-}
-.footer-top .footer-top-wrapper-left ul li{
-    float: left;
-    list-style: none;
-    padding-right: 10px;
-}
-
-.footer-top .footer-top-wrapper-mid1{
-    float: left;
-    margin-left: 76px;
-}
-.footer-top .footer-top-wrapper-mid1 ul li{
-    list-style: none;
-} 
-.footer-top .footer-top-wrapper-mid2{
-    float: left;
-    margin-left: 76px;
-}
-.footer-top .footer-top-wrapper-mid2 ul li{
-    list-style: none;
-} 
-
-.footer-top .footer-top-wrapper-right{
-    float: left;
-    margin-left: 76px;
-}
-.footer-top .footer-top-wrapper-right .click {
     width: 200px;
-    height: 17px;
-    
-}
-
-.footer-top .footer-top-wrapper-right  .click button{
-    background-color: #ff0000;
-    border-radius: 10%;
-    border-style: none;
+    background-color: #ffb8b8;
     padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+}
+.cards .card-left .card-left-top .card2{
+    float: right;
+    width: 200px;
+    background-color: #ffb8b8;
+    padding: 10px;
+    text-align: center;
+}
+
+.cards .card-left .card-left-bottom{
+    margin-left: 50px;
+}
+.cards .card-left .card-left-bottom .card3{
+    float: left;
+    margin-top: 20px;
+    margin-left: 25%;
+    width: 200px;
+    background-color: #ffb8b8;
+    padding: 10px;
+    text-align: center;
+}
+.cards .card-right  .card-right-top .card-right-top-left{
+    margin-left: 500px;
+}
+.cards .card-right  .card-right-top .card-right-top-left .card1{
+    float: left;
+    background-color: #ffb8b8;
+    padding-top: 50px;
+    color: red;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+.cards .card-right  .card-right-top .card-right-top-right .card2{
+    float: left;
+    background-color: #ffb8b8;
+    padding-top: 50px;
+    color: red;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
 }
 
 
- .footer-bottom{
-    background-color: #ff0000;
-    margin-bottom: 10px;
+
+
+.weare{
+    background-color: #ffe9e9;
+}
+.weare .text{
+    float: left;
+    width: 550px;
+    margin: 10px;
+    margin-top: 50px;
     text-align: center;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+.weare .text p{
+    margin-bottom: 20px;
+}
+.weare .image{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    float: right;
+    width: 500px;
 }
