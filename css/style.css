@@ -272,7 +272,11 @@ form.form button {
         padding-left: 20px;
         width: 90%;
     }
+    .form-group2 .form-control,
+    .button {
+        display: flex;
+    }
     .intro-content {
-        height: 75vh;
+        height: 80vh;
     }
 }
