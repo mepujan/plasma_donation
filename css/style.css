@@ -223,9 +223,7 @@ main {
     }
 }
 
-
-/* 
-@media screen and (min-width:425px) {
+@media screen and (max-width:425px) {
     #navbarNav {
         padding-left: 0%;
     }
@@ -264,10 +262,9 @@ main {
     .requirements {
         margin-top: -130px;
     }
-} */
+}
 
-
-/* @media screen and (max-width:393px) {
+@media screen and (max-width:393px) {
     .header {
         height: 67vh;
     }
@@ -281,10 +278,9 @@ main {
     .intro-content {
         height: 80vh;
     }
-} */
+}
 
-
-/* @media screen and (min-width:411px) {
+@media screen and (min-width:411px) {
     .header {
         height: 70vh;
     }
@@ -294,10 +290,9 @@ main {
     .covid-content {
         height: 30px;
     }
-} */
+}
 
-
-/* @media screen and (min-width:320px) {
+@media screen and (min-width:320px) {
     .header {
         height: 110vh;
     }
@@ -307,7 +302,7 @@ main {
     .covid-content {
         height: 60vh;
     }
-} */
+}
 
 @media screen and (min-width:360px) {
     .header {
