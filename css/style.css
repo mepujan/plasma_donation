@@ -267,13 +267,13 @@ form.form button {
 
 @media screen and (max-width:393px) {
     .header {
-        height: 65vh;
+        height: 60vh;
     }
     .form-group {
         padding-left: 20px;
         width: 90%;
     }
     .intro-content {
-        height: 80vh;
+        height: 70vh;
     }
 }
