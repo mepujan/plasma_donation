@@ -264,22 +264,6 @@ main {
     }
 }
 
-@media screen and (max-width:393px) {
-    .header {
-        height: 67vh;
-    }
-    .button {
-        width: 190px;
-        height: 40px;
-        padding-left: 20%;
-        align-content: center;
-        color: #c4161c;
-    }
-    .intro-content {
-        height: 80vh;
-    }
-}
-
 @media screen and (min-width:411px) {
     .header {
         height: 70vh;
@@ -336,10 +320,10 @@ main {
 
 @media screen and (min-width:375px) {
     .header {
-        height: 50vh;
+        height: 90vh;
     }
     .intro-content {
-        height: 75vh;
+        height: 108vh;
     }
     .covid-content {
         height: 30vh;
