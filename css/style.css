@@ -191,7 +191,7 @@ main {
         padding-left: 0%;
     }
     .intro-content {
-        height: 90vh;
+        height: 80vh;
     }
     .intro-text {
         width: 100%;
@@ -306,13 +306,13 @@ main {
 
 @media screen and (min-width:360px) {
     .header {
-        height: 105vh;
+        height: 80vh;
     }
     .intro-content {
-        height: 110vh;
+        height: 86vh;
     }
     .covid-content {
-        height: 43vh;
+        height: 37vh;
     }
     .header-content {
         padding-top: 40px;
@@ -331,6 +331,18 @@ main {
     }
     .button {
         padding-left: 35%;
+    }
+}
+
+@media screen and (min-width:375px) {
+    .header {
+        height: 50vh;
+    }
+    .intro-content {
+        height: 75vh;
+    }
+    .covid-content {
+        height: 30vh;
     }
 }
 
