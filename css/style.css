@@ -168,8 +168,7 @@ form.form button {
     color: #c4161c;
 }
 
-
-/* @media screen and (max-width:360px) {
+@media screen and (max-width:360px) {
     #navbarNav {
         padding-left: 0%;
     }
@@ -204,7 +203,7 @@ form.form button {
     .header-content {
         padding-top: 40px;
     }
-} */
+}
 
 @media screen and (max-width:425px) {
     #navbarNav {
