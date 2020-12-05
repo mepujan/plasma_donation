@@ -181,6 +181,11 @@ main {
     color: #c4161c;
 }
 
+.doctor {
+    background-color: #ffffff;
+    padding: 10vh 0;
+}
+
 @media screen and (max-width:360px) {
     #navbarNav {
         padding-left: 0%;
@@ -218,6 +223,8 @@ main {
     }
 }
 
+
+/* 
 @media screen and (min-width:425px) {
     #navbarNav {
         padding-left: 0%;
@@ -257,9 +264,10 @@ main {
     .requirements {
         margin-top: -130px;
     }
-}
+} */
 
-@media screen and (max-width:393px) {
+
+/* @media screen and (max-width:393px) {
     .header {
         height: 67vh;
     }
@@ -273,9 +281,10 @@ main {
     .intro-content {
         height: 80vh;
     }
-}
+} */
 
-@media screen and (min-width:411px) {
+
+/* @media screen and (min-width:411px) {
     .header {
         height: 70vh;
     }
@@ -285,9 +294,10 @@ main {
     .covid-content {
         height: 30px;
     }
-}
+} */
 
-@media screen and (min-width:320px) {
+
+/* @media screen and (min-width:320px) {
     .header {
         height: 110vh;
     }
@@ -297,12 +307,9 @@ main {
     .covid-content {
         height: 60vh;
     }
-}
+} */
 
 @media screen and (min-width:360px) {
-    #navbarNav {
-        padding-left: 0%;
-    }
     .header {
         height: 105vh;
     }
@@ -311,22 +318,6 @@ main {
     }
     .covid-content {
         height: 43vh;
-    }
-    .mid-section-intro {
-        display: inline;
-        width: 100%;
-    }
-    .mid-section-intro .card1,
-    .mid-section-intro .card2,
-    .mid-section-intro .card3 {
-        width: 100%;
-    }
-    .requirements {
-        margin-top: -150px;
-    }
-    .form {
-        display: inline;
-        align-items: center;
     }
     .header-content {
         padding-top: 40px;
