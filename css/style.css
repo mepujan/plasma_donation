@@ -72,7 +72,7 @@ main {
 }
 
 .header-content {
-    padding-top: 40vh;
+    padding-top: 30vh;
     text-align: center;
 }
 
@@ -186,7 +186,7 @@ main {
         padding-left: 0%;
     }
     .intro-content {
-        height: 10vh;
+        height: 90vh;
     }
     .intro-text {
         width: 100%;
@@ -211,14 +211,14 @@ main {
         align-items: center;
     }
     .header {
-        height: 75vh;
+        height: 85vh;
     }
     .header-content {
         padding-top: 40px;
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (min-width:425px) {
     #navbarNav {
         padding-left: 0%;
     }
@@ -230,7 +230,7 @@ main {
         color: #c4161c;
     }
     .intro-content {
-        height: 105vh;
+        height: 1130vh;
     }
     .form {
         display: inline;
@@ -259,31 +259,6 @@ main {
     }
 }
 
-@media screen and (max-width:375px) {
-    .intro-content {
-        height: 110vh;
-    }
-    .covid-content {
-        height: 45vh;
-    }
-    .header {
-        height: 90vh;
-    }
-}
-
-@media screen and (max-width:320px) {
-    .header {
-        height: 130vh;
-    }
-    .intro-content {
-        height: 122vh;
-    }
-    .form-group {
-        padding-left: 20px;
-        width: 90%;
-    }
-}
-
 @media screen and (max-width:393px) {
     .header {
         height: 67vh;
@@ -291,15 +266,99 @@ main {
     .button {
         width: 190px;
         height: 40px;
-        padding-left: 23% !important;
+        padding-left: 20%;
         align-content: center;
-        color: #c4161c !important;
-    }
-    .form-group {
-        padding-left: 20px;
-        width: 90%;
+        color: #c4161c;
     }
     .intro-content {
         height: 80vh;
+    }
+}
+
+@media screen and (min-width:411px) {
+    .header {
+        height: 70vh;
+    }
+    .intro-content {
+        height: 70vh;
+    }
+    .covid-content {
+        height: 30px;
+    }
+}
+
+@media screen and (min-width:320px) {
+    .header {
+        height: 110vh;
+    }
+    .intro-content {
+        height: 120vh;
+    }
+    .covid-content {
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width:360px) {
+    #navbarNav {
+        padding-left: 0%;
+    }
+    .header {
+        height: 105vh;
+    }
+    .intro-content {
+        height: 110vh;
+    }
+    .covid-content {
+        height: 43vh;
+    }
+    .mid-section-intro {
+        display: inline;
+        width: 100%;
+    }
+    .mid-section-intro .card1,
+    .mid-section-intro .card2,
+    .mid-section-intro .card3 {
+        width: 100%;
+    }
+    .requirements {
+        margin-top: -150px;
+    }
+    .form {
+        display: inline;
+        align-items: center;
+    }
+    .header-content {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .header {
+        height: 90vh;
+    }
+    .intro-content {
+        height: 80vh;
+    }
+    .covid-content {
+        height: 30vh;
+    }
+    .button {
+        padding-left: 35%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .header {
+        height: 80vh;
+    }
+    .intro-content {
+        height: 60vh;
+    }
+    .covid-content {
+        height: 25vh;
+    }
+    .button {
+        padding-left: 40%;
     }
 }
