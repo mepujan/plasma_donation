@@ -86,7 +86,8 @@ main {
     padding-left: 30%;
 }
 
-form.form button {
+
+/* form.form button {
     float: left;
     width: 30px;
     height: 50px;
@@ -98,6 +99,14 @@ form.form button {
     border: none;
     border-left: none;
     cursor: pointer;
+} */
+
+.button {
+    width: 150px;
+    height: 40px;
+    padding-left: 45%;
+    align-content: center;
+    color: #c4161c;
 }
 
 .intro-text li {
@@ -253,7 +262,7 @@ form.form button {
 
 @media screen and (max-width:320px) {
     .header {
-        height: 100vh;
+        height: 130vh;
     }
     .intro-content {
         height: 122vh;
@@ -271,10 +280,6 @@ form.form button {
     .form-group {
         padding-left: 20px;
         width: 90%;
-    }
-    .form-group2 .form-control,
-    .button {
-        display: flex;
     }
     .intro-content {
         height: 80vh;
