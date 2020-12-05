@@ -168,19 +168,19 @@ form.form button {
     color: #c4161c;
 }
 
-@media screen and (max-width:360px) {
+
+/* @media screen and (max-width:360px) {
     #navbarNav {
         padding-left: 0%;
     }
     .intro-content {
-        height: 90vh;
-        width: fit-content;
+        height: 10vh;
     }
     .intro-text {
         width: 100%;
     }
     .covid-content {
-        height: 43vh;
+        height: 35vh;
     }
     .mid-section-intro {
         display: inline;
@@ -204,7 +204,7 @@ form.form button {
     .header-content {
         padding-top: 40px;
     }
-}
+} */
 
 @media screen and (max-width:425px) {
     #navbarNav {
@@ -258,5 +258,22 @@ form.form button {
     }
     .intro-content {
         height: 122vh;
+    }
+    .form-group {
+        padding-left: 20px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:393px) {
+    .header {
+        height: 65vh;
+    }
+    .form-group {
+        padding-left: 20px;
+        width: 90%;
+    }
+    .intro-content {
+        height: 80vh;
     }
 }
