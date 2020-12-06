@@ -190,14 +190,20 @@ main {
     #navbarNav {
         padding-left: 30%;
     }
+    .header {
+        height: 65vh;
+    }
+    .header-content {
+        padding-top: 10%;
+    }
     .intro-content {
-        height: 80vh;
+        height: 60vh;
     }
     .covid-content {
         height: 25vh;
     }
     .mid-section-intro {
-        height: 85vh;
+        height: 60vh;
     }
     .button {
         padding-left: 40%;
@@ -210,6 +216,12 @@ main {
 @media screen and (max-width:1000px) {
     #navbarNav {
         padding-left: 23%;
+    }
+    .covid-content {
+        height: 20vh;
+    }
+    .criteria-intro {
+        height: 85vh;
     }
 }
 
@@ -230,10 +242,10 @@ main {
 
 @media screen and (max-width:770px) {
     .intro-content {
-        height: 90vh;
+        height: 70vh;
     }
     .covid-content {
-        height: 30vh;
+        height: 20vh;
     }
     .mid-section-intro {
         height: 140vh;
@@ -247,14 +259,17 @@ main {
     .requirements-content {
         padding-top: 20px;
     }
+    .criteria-intro {
+        height: 115vh;
+    }
 }
 
 @media screen and (max-width:535px) {
     .header {
-        height: 115vh;
+        height: 85vh;
     }
     .intro-content {
-        height: 97vh;
+        height: 76vh;
     }
     .mid-section-intro {
         display: inline;
@@ -281,26 +296,32 @@ main {
     .requirements-content {
         padding-top: 20px;
     }
+    .criteria-intro {
+        height: 170vh;
+    }
 }
 
 @media screen and (max-width:494px) {
     .intro-content {
-        height: 100vh;
+        height: 80vh;
     }
     .covid-content {
-        height: 33vh;
+        height: 30vh;
     }
     .requirements-content {
-        padding-top: 20px;
+        padding-top: 70px;
     }
 }
 
 @media screen and (max-width:430px) {
+    .header {
+        height: 80vh;
+    }
     .intro-content {
-        height: 105vh;
+        height: 77vh;
     }
     .covid-content {
-        height: 45vh;
+        height: 35vh;
     }
     .button {
         padding-left: 28%;
@@ -308,68 +329,96 @@ main {
     .requirements-content {
         padding-top: 20px;
     }
+    .criteria-intro {
+        height: 182vh;
+    }
 }
 
 @media screen and (max-width:390px) {
     .header {
-        height: 100vh;
+        height: 80vh;
     }
     .intro-content {
-        height: 112vh;
+        height: 85vh;
     }
     .requirements-content {
-        padding-top: 20px;
+        padding-top: 50px;
     }
 }
 
 @media screen and (max-width:360px) {
     .header {
-        height: 100vh;
+        height: 80vh;
     }
     .button {
         padding-left: 22%;
     }
     .intro-content {
-        height: 110vh;
+        height: 85vh;
     }
     .covid-content {
-        height: 50vh;
+        height: 34vh;
     }
     .requirements-content {
         padding-top: 20px;
     }
-}
-
-@media screen and (max-width:360px) {
-    .intro-content {
-        height: 118vh;
+    .criteria-intro {
+        height: 200vh;
     }
 }
 
-@media screen and (max-width:334px) {
+
+/* @media screen and (max-width:360px) {
     .intro-content {
-        height: 122vh;
+        height: 118vh;
+    }
+}*/
+
+@media screen and (max-width:338px) {
+    .intro-content {
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width:335px) {
+    .header {
+        height: 80vh;
+    }
+    .intro-content {
+        height: 90vh;
+    }
+    .covid-content {
+        height: 43vh;
     }
 }
 
 @media screen and (max-width:312px) {
     .header {
-        height: 105vh;
+        height: 90vh;
     }
     .intro-content {
-        height: 126vh;
+        height: 100vh;
     }
     .button {
         padding-left: 17%;
     }
     .covid-content {
-        height: 60vh;
+        height: 45vh;
     }
 }
 
 @media screen and (max-width:298px) {
+    .header {
+        height: 80vh;
+    }
     .intro-content {
-        height: 135vh;
+        height: 100vh;
+    }
+    .criteria-intro {
+        height: 220vh;
+    }
+    .covid-content {
+        height: 45vh;
     }
 }
 
