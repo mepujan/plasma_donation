@@ -241,14 +241,20 @@ main {
 }
 
 @media screen and (max-width:770px) {
+    .header {
+        height: 50vh;
+    }
+    .header-content {
+        padding-top: 15%;
+    }
     .intro-content {
-        height: 70vh;
+        height: 40vh;
     }
     .covid-content {
-        height: 20vh;
+        height: 15vh;
     }
     .mid-section-intro {
-        height: 140vh;
+        height: 60vh;
     }
     .form {
         padding-left: 20%;
@@ -260,7 +266,7 @@ main {
         padding-top: 20px;
     }
     .criteria-intro {
-        height: 115vh;
+        height: 65vh;
     }
 }
 
@@ -281,7 +287,7 @@ main {
         width: 100%;
     }
     .requirements {
-        margin-top: -150px;
+        margin-top: -200px;
     }
     .form {
         display: inline;
@@ -339,10 +345,34 @@ main {
         height: 80vh;
     }
     .intro-content {
-        height: 85vh;
+        height: 90vh;
     }
     .requirements-content {
         padding-top: 50px;
+    }
+    .criteria-intro {
+        height: 210vh;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .header {
+        height: 75vh;
+    }
+    .intro-content {
+        height: 90vh;
+    }
+    .requirements-content {
+        padding-top: 50px;
+    }
+    .covid-content {
+        height: 30vh;
+    }
+    .criteria-intro {
+        height: 210vh;
+    }
+    .button {
+        padding-left: 20%;
     }
 }
 
