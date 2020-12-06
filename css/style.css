@@ -1,93 +1,91 @@
-.navbar {
-    margin: 0 !important;
-    padding-left: 15% !important;
-    padding-top: 18px !important;
-    padding-bottom: 18px !important;
-    background-color: #c4161c;
-}
-
-#navbarNav {
-    padding-left: 40%;
-}
-
-.nav-link {
-    font-size: larger !important;
-    font-weight: bold !important;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
-
-main {
-    position: absolute;
-    left: 0;
-    width: 100%;
-}
-
-.intro {
-    background-color: #ffffff;
-    padding: 10vh 0;
-}
-
-.intro-content {
-    height: 65vh;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.form {
-    display: flex;
-    align-items: center;
-}
-
-.intro-content div {
-    width: 100%;
-}
-
-.intro-text p {
-    text-align: left;
-    color: #828282;
-    line-height: 30px;
-}
-
-.container {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.header {
-    height: 100vh;
-    color: #c4161c;
-    line-height: 50px;
-    font-size: larger;
-    font-weight: bold;
-}
-
-.header-content {
-    padding-top: 30vh;
-    text-align: center;
-}
-
-.header-content h1,
-.intro-content h1,
-.contact-section h1 {
-    font-size: 42px;
-}
-
-.form {
-    padding-left: 30%;
-}
-
-
-/* form.form button {
+    .navbar {
+        margin: 0 !important;
+        padding-left: 15% !important;
+        padding-top: 18px !important;
+        padding-bottom: 18px !important;
+        background-color: #c4161c;
+    }
+    
+    #navbarNav {
+        padding-left: 40%;
+    }
+    
+    .nav-link {
+        font-size: larger !important;
+        font-weight: bold !important;
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+    
+    main {
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+    
+    .intro {
+        background-color: #ffffff;
+        padding: 10vh 0;
+    }
+    
+    .intro-content {
+        height: 65vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .form {
+        display: flex;
+        align-items: center;
+    }
+    
+    .intro-content div {
+        width: 100%;
+    }
+    
+    .intro-text p {
+        text-align: left;
+        color: #828282;
+        line-height: 30px;
+    }
+    
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .header {
+        height: 100vh;
+        color: #c4161c;
+        line-height: 50px;
+        font-size: larger;
+        font-weight: bold;
+    }
+    
+    .header-content {
+        padding-top: 30vh;
+        text-align: center;
+    }
+    
+    .header-content h1,
+    .intro-content h1,
+    .contact-section h1 {
+        font-size: 42px;
+    }
+    
+    .form {
+        padding-left: 30%;
+    }
+    /* form.form button {
     float: left;
     width: 30px;
     height: 50px;
@@ -100,514 +98,368 @@ main {
     border-left: none;
     cursor: pointer;
 } */
-
-.button {
-    width: 190px;
-    height: 40px;
-    padding-left: 39%;
-    align-content: center;
-    color: #c4161c;
-}
-
-.button .btn-danger {
-    width: 190px;
-}
-
-.intro-text li {
-    list-style-type: none;
-    position: relative;
-    padding-left: 15px;
-    color: #c4161c;
-}
-
-.intro li:before {
-    content: "\2192 \0020";
-    font-size: 20px;
-    top: -6px;
-    left: -10px;
-    color: blue;
-}
-
-.introduction {
-    background-color: #c4161c;
-    padding: 5vh 0;
-}
-
-.covid-content {
-    height: 20vh;
-    display: flex;
-    flex-wrap: wrap;
-    color: white;
-}
-
-.criteria-intro {
-    background-color: #ffffff;
-    padding: 10vh 0;
-}
-
-.mid-section-intro {
-    height: 60vh;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.card1 {
-    width: 35%;
-}
-
-.card2 {
-    width: 33%;
-}
-
-.card3 {
-    width: 32%;
-}
-
-.mid-section-intro div {
-    width: 33.33%;
-}
-
-.card p {
-    color: #828282;
-    line-height: 30px;
-}
-
-.requirements {
-    background-color: #ffffff;
-    padding: 10vh 0;
-}
-
-.criteria-intro h3 {
-    color: #c4161c;
-}
-
-.doctor {
-    background-color: #ffffff;
-    padding: 10vh 0;
-}
-
-@media screen and (max-width: 1200px) {
-    #navbarNav {
-        padding-left: 30%;
-    }
-    .header {
-        height: 65vh;
-    }
-    .header-content {
-        padding-top: 10%;
-    }
-    .intro-content {
-        height: 60vh;
-    }
-    .covid-content {
-        height: 25vh;
-    }
-    .mid-section-intro {
-        height: 60vh;
-    }
-    .button {
-        padding-left: 40%;
-    }
-    .requirements-content {
-        padding-top: 20px;
-    }
-}
-
-@media screen and (max-width:1000px) {
-    #navbarNav {
-        padding-left: 23%;
-    }
-    .covid-content {
-        height: 20vh;
-    }
-    .criteria-intro {
-        height: 85vh;
-    }
-}
-
-@media screen and (max-width:995px) {
-    #navbarNav {
-        padding-left: 0%;
-    }
-    .button {
-        padding-left: 45%;
-    }
-    .mid-section-intro {
-        height: 95vh;
-    }
-    .requirements-content {
-        padding-top: 20px;
-    }
-}
-
-@media screen and (max-width:770px) {
-    .header {
-        height: 50vh;
-    }
-    .header-content {
-        padding-top: 15%;
-    }
-    .intro-content {
-        height: 40vh;
-    }
-    .covid-content {
-        height: 15vh;
-    }
-    .mid-section-intro {
-        height: 60vh;
-    }
-    .form {
-        padding-left: 20%;
-    }
-    .button {
-        padding-left: 37%;
-    }
-    .requirements-content {
-        padding-top: 20px;
-    }
-    .criteria-intro {
-        height: 65vh;
-    }
-}
-
-@media screen and (max-width:535px) {
-    .header {
-        height: 85vh;
-    }
-    .intro-content {
-        height: 76vh;
-    }
-    .mid-section-intro {
-        display: inline;
-        width: 100%;
-    }
-    .mid-section-intro .card1,
-    .mid-section-intro .card2,
-    .mid-section-intro .card3 {
-        width: 100%;
-    }
-    .requirements {
-        margin-top: -200px;
-    }
-    .form {
-        display: inline;
-        align-items: center;
-    }
-    .button {
-        padding-left: 32%;
-    }
-    .header-content {
-        padding-top: 50px;
-    }
-    .requirements-content {
-        padding-top: 20px;
-    }
-    .criteria-intro {
-        height: 170vh;
-    }
-}
-
-@media screen and (max-width:494px) {
-    .intro-content {
-        height: 80vh;
-    }
-    .covid-content {
-        height: 30vh;
-    }
-    .requirements-content {
-        padding-top: 70px;
-    }
-}
-
-@media screen and (max-width:430px) {
-    .header {
-        height: 80vh;
-    }
-    .intro-content {
-        height: 77vh;
-    }
-    .covid-content {
-        height: 35vh;
-    }
-    .button {
-        padding-left: 28%;
-    }
-    .requirements-content {
-        padding-top: 20px;
-    }
-    .criteria-intro {
-        height: 182vh;
-    }
-}
-
-@media screen and (max-width:390px) {
-    .header {
-        height: 80vh;
-    }
-    .intro-content {
-        height: 90vh;
-    }
-    .requirements-content {
-        padding-top: 50px;
-    }
-    .criteria-intro {
-        height: 210vh;
-    }
-}
-
-@media screen and (max-width:375px) {
-    .header {
-        height: 75vh;
-    }
-    .intro-content {
-        height: 90vh;
-    }
-    .requirements-content {
-        padding-top: 50px;
-    }
-    .covid-content {
-        height: 30vh;
-    }
-    .criteria-intro {
-        height: 210vh;
-    }
-    .button {
-        padding-left: 20%;
-    }
-}
-
-@media screen and (max-width:360px) {
-    .header {
-        height: 80vh;
-    }
-    .button {
-        padding-left: 22%;
-    }
-    .intro-content {
-        height: 85vh;
-    }
-    .covid-content {
-        height: 34vh;
-    }
-    .requirements-content {
-        padding-top: 20px;
-    }
-    .criteria-intro {
-        height: 200vh;
-    }
-}
-
-
-/* @media screen and (max-width:360px) {
-    .intro-content {
-        height: 118vh;
-    }
-}*/
-
-@media screen and (max-width:338px) {
-    .intro-content {
-        height: 90vh;
-    }
-}
-
-@media screen and (max-width:335px) {
-    .header {
-        height: 80vh;
-    }
-    .intro-content {
-        height: 90vh;
-    }
-    .covid-content {
-        height: 43vh;
-    }
-}
-
-@media screen and (max-width:312px) {
-    .header {
-        height: 90vh;
-    }
-    .intro-content {
-        height: 100vh;
-    }
-    .button {
-        padding-left: 17%;
-    }
-    .covid-content {
-        height: 45vh;
-    }
-}
-
-@media screen and (max-width:298px) {
-    .header {
-        height: 80vh;
-    }
-    .intro-content {
-        height: 100vh;
-    }
-    .criteria-intro {
-        height: 220vh;
-    }
-    .covid-content {
-        height: 45vh;
-    }
-}
-
-
-/* @media screen and (max-width:360px) {
-    #navbarNav {
-        padding-left: 0%;
-    }
-    .intro-content {
-        height: 80vh;
-    }
-    .intro-text {
-        width: 100%;
-    }
-    .covid-content {
-        height: 35vh;
-    }
-    .mid-section-intro {
-        display: inline;
-        width: 100%;
-    }
-    .mid-section-intro .card1,
-    .mid-section-intro .card2,
-    .mid-section-intro .card3 {
-        width: 100%;
-    }
-    .requirements {
-        margin-top: -150px;
-    }
-    .form {
-        display: inline;
-        align-items: center;
-    }
-    .header {
-        height: 85vh;
-    }
-    .header-content {
-        padding-top: 40px;
-    }
-}
-
-@media screen and (max-width:425px) {
-    #navbarNav {
-        padding-left: 0%;
-    }
+    
     .button {
         width: 190px;
         height: 40px;
-        padding-left: 27%;
+        padding-left: 39%;
         align-content: center;
         color: #c4161c;
     }
-    .intro-content {
-        height: 1130vh;
+    
+    .button .btn-danger {
+        width: 190px;
     }
-    .form {
-        display: inline;
-        align-items: center;
+    
+    .intro-text li {
+        list-style-type: none;
+        position: relative;
+        padding-left: 15px;
+        color: #c4161c;
     }
-    .header {
-        height: 95vh;
+    
+    .intro li:before {
+        content: "\2192 \0020";
+        font-size: 20px;
+        top: -6px;
+        left: -10px;
+        color: blue;
     }
-    .header-content {
-        padding-top: 40px;
+    
+    .introduction {
+        background-color: #c4161c;
+        padding: 5vh 0;
     }
+    
     .covid-content {
-        height: 40vh;
+        height: 20vh;
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
     }
+    
+    .criteria-intro {
+        background-color: #ffffff;
+        padding: 10vh 0;
+    }
+    
     .mid-section-intro {
-        display: inline;
-        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
     }
-    .mid-section-intro .card1,
-    .mid-section-intro .card2,
-    .mid-section-intro .card3 {
-        width: 100%;
+    
+    .card1 {
+        width: 35%;
     }
+    
+    .card2 {
+        width: 33%;
+    }
+    
+    .card3 {
+        width: 32%;
+    }
+    
+    .mid-section-intro div {
+        width: 33.33%;
+    }
+    
+    .card p {
+        color: #828282;
+        line-height: 30px;
+    }
+    
     .requirements {
-        margin-top: -130px;
+        background-color: #ffffff;
+        padding: 10vh 0;
     }
-}
-
-@media screen and (min-width:411px) {
-    .header {
-        height: 70vh;
+    
+    .criteria-intro h3 {
+        color: #c4161c;
     }
-    .intro-content {
-        height: 70vh;
+    
+    .doctor {
+        background-color: #ffffff;
+        padding: 10vh 0;
     }
-    .covid-content {
-        height: 30px;
+    
+    @media screen and (max-width: 1200px) {
+        #navbarNav {
+            padding-left: 30%;
+        }
+        .header {
+            height: 65vh;
+        }
+        .header-content {
+            padding-top: 10%;
+        }
+        .intro-content {
+            height: 70vh;
+        }
+        .covid-content {
+            height: 25vh;
+        }
+        .mid-section-intro {
+            height: 60vh;
+        }
+        .button {
+            padding-left: 40%;
+        }
+        .requirements-content {
+            padding-top: 20px;
+        }
     }
-}
-
-@media screen and (min-width:320px) {
-    .header {
-        height: 110vh;
+    
+    @media screen and (max-width:1000px) {
+        #navbarNav {
+            padding-left: 23%;
+        }
+        .covid-content {
+            height: 20vh;
+        }
+        .criteria-intro {
+            height: 85vh;
+        }
     }
-    .intro-content {
-        height: 120vh;
+    
+    @media screen and (max-width:995px) {
+        #navbarNav {
+            padding-left: 0%;
+        }
+        .button {
+            padding-left: 45%;
+        }
+        .mid-section-intro {
+            height: 95vh;
+        }
+        .requirements-content {
+            padding-top: 20px;
+        }
     }
-    .covid-content {
-        height: 60vh;
+    
+    @media screen and (max-width:770px) {
+        .header {
+            height: 50vh;
+        }
+        .header-content {
+            padding-top: 15%;
+        }
+        .intro-content {
+            height: 40vh;
+        }
+        .covid-content {
+            height: 15vh;
+        }
+        .mid-section-intro {
+            height: 60vh;
+        }
+        .form {
+            padding-left: 20%;
+        }
+        .button {
+            padding-left: 37%;
+        }
+        .requirements-content {
+            padding-top: 20px;
+        }
+        .criteria-intro {
+            height: 65vh;
+        }
     }
-}
-
-@media screen and (min-width:360px) {
-    .header {
-        height: 80vh;
+    
+    @media screen and (max-width:535px) {
+        .header {
+            height: 85vh;
+        }
+        .intro-content {
+            height: 76vh;
+        }
+        .mid-section-intro {
+            display: inline;
+            width: 100%;
+        }
+        .mid-section-intro .card1,
+        .mid-section-intro .card2,
+        .mid-section-intro .card3 {
+            width: 100%;
+        }
+        .requirements {
+            margin-top: -200px;
+        }
+        .form {
+            display: inline;
+            align-items: center;
+        }
+        .button {
+            padding-left: 32%;
+        }
+        .header-content {
+            padding-top: 50px;
+        }
+        .requirements-content {
+            padding-top: 20px;
+        }
+        .criteria-intro {
+            height: 170vh;
+        }
     }
-    .intro-content {
-        height: 86vh;
+    
+    @media screen and (max-width:494px) {
+        .intro-content {
+            height: 80vh;
+        }
+        .covid-content {
+            height: 30vh;
+        }
+        .requirements-content {
+            padding-top: 70px;
+        }
     }
-    .covid-content {
-        height: 37vh;
+    
+    @media screen and (max-width:430px) {
+        .header {
+            height: 80vh;
+        }
+        .intro-content {
+            height: 77vh;
+        }
+        .covid-content {
+            height: 35vh;
+        }
+        .button {
+            padding-left: 28%;
+        }
+        .requirements-content {
+            padding-top: 20px;
+        }
+        .criteria-intro {
+            height: 182vh;
+        }
     }
-    .header-content {
-        padding-top: 40px;
+    
+    @media screen and (max-width:390px) {
+        .header {
+            height: 80vh;
+        }
+        .intro-content {
+            height: 90vh;
+        }
+        .requirements-content {
+            padding-top: 50px;
+        }
+        .criteria-intro {
+            height: 210vh;
+        }
     }
-}
-
-@media screen and (min-width:768px) {
-    .header {
-        height: 90vh;
+    
+    @media screen and (max-width:375px) {
+        .header {
+            height: 75vh;
+        }
+        .intro-content {
+            height: 90vh;
+        }
+        .requirements-content {
+            padding-top: 50px;
+        }
+        .covid-content {
+            height: 37vh;
+        }
+        .criteria-intro {
+            height: 210vh;
+        }
+        .button {
+            padding-left: 20%;
+        }
     }
-    .intro-content {
-        height: 80vh;
+    
+    @media screen and (max-width:360px) {
+        .header {
+            height: 80vh;
+        }
+        .button {
+            padding-left: 22%;
+        }
+        /* .intro-content {
+        height: 85vh;
+    } */
+        .intro-content {
+            height: 100vh;
+        }
+        .covid-content {
+            height: 40vh;
+        }
+        .requirements-content {
+            padding-top: 20px;
+        }
+        .criteria-intro {
+            height: 220vh;
+        }
     }
-    .covid-content {
-        height: 30vh;
+    
+    @media screen and (max-width:338px) {
+        .intro-content {
+            height: 90vh;
+        }
     }
-    .button {
-        padding-left: 35%;
+    
+    @media screen and (max-width:335px) {
+        .header {
+            height: 80vh;
+        }
+        .intro-content {
+            height: 90vh;
+        }
+        .covid-content {
+            height: 43vh;
+        }
     }
-}
-
-@media screen and (min-width:375px) {
-    .header {
-        height: 90vh;
+    
+    @media screen and (max-width:320px) {
+        .header {
+            height: 110vh;
+        }
+        .button {
+            padding-left: 15%;
+        }
+        .intro-content {
+            height: 130vh;
+        }
+        .covid-content {
+            height: 60vh;
+        }
+        .criteria-intro {
+            height: 282vh;
+        }
     }
-    .intro-content {
-        height: 108vh;
+    
+    @media screen and (max-width:312px) {
+        .header {
+            height: 90vh;
+        }
+        .intro-content {
+            height: 100vh;
+        }
+        .button {
+            padding-left: 17%;
+        }
+        .covid-content {
+            height: 45vh;
+        }
     }
-    .covid-content {
-        height: 30vh;
+    
+    @media screen and (max-width:298px) {
+        .header {
+            height: 80vh;
+        }
+        .intro-content {
+            height: 100vh;
+        }
+        .criteria-intro {
+            height: 220vh;
+        }
+        .covid-content {
+            height: 45vh;
+        }
     }
-}
-
-@media screen and (min-width:1024px) {
-    .header {
-        height: 80vh;
-    }
-    .intro-content {
-        height: 60vh;
-    }
-    .covid-content {
-        height: 25vh;
-    }
-    .button {
-        padding-left: 40%;
-    }
-} */
