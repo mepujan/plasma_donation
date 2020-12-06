@@ -186,7 +186,195 @@ main {
     padding: 10vh 0;
 }
 
+@media screen and (max-width: 1200px) {
+    #navbarNav {
+        padding-left: 30%;
+    }
+    .intro-content {
+        height: 80vh;
+    }
+    .covid-content {
+        height: 25vh;
+    }
+    .mid-section-intro {
+        height: 85vh;
+    }
+    .button {
+        padding-left: 40%;
+    }
+    .requirements-content {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #navbarNav {
+        padding-left: 23%;
+    }
+}
+
+@media screen and (max-width:995px) {
+    #navbarNav {
+        padding-left: 0%;
+    }
+    .button {
+        padding-left: 45%;
+    }
+    .mid-section-intro {
+        height: 95vh;
+    }
+    .requirements-content {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .intro-content {
+        height: 90vh;
+    }
+    .covid-content {
+        height: 30vh;
+    }
+    .mid-section-intro {
+        height: 140vh;
+    }
+    .form {
+        padding-left: 20%;
+    }
+    .button {
+        padding-left: 37%;
+    }
+    .requirements-content {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:535px) {
+    .header {
+        height: 115vh;
+    }
+    .intro-content {
+        height: 97vh;
+    }
+    .mid-section-intro {
+        display: inline;
+        width: 100%;
+    }
+    .mid-section-intro .card1,
+    .mid-section-intro .card2,
+    .mid-section-intro .card3 {
+        width: 100%;
+    }
+    .requirements {
+        margin-top: -150px;
+    }
+    .form {
+        display: inline;
+        align-items: center;
+    }
+    .button {
+        padding-left: 32%;
+    }
+    .header-content {
+        padding-top: 50px;
+    }
+    .requirements-content {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:494px) {
+    .intro-content {
+        height: 100vh;
+    }
+    .covid-content {
+        height: 33vh;
+    }
+    .requirements-content {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .intro-content {
+        height: 105vh;
+    }
+    .covid-content {
+        height: 45vh;
+    }
+    .button {
+        padding-left: 28%;
+    }
+    .requirements-content {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .header {
+        height: 100vh;
+    }
+    .intro-content {
+        height: 112vh;
+    }
+    .requirements-content {
+        padding-top: 20px;
+    }
+}
+
 @media screen and (max-width:360px) {
+    .header {
+        height: 100vh;
+    }
+    .button {
+        padding-left: 22%;
+    }
+    .intro-content {
+        height: 110vh;
+    }
+    .covid-content {
+        height: 50vh;
+    }
+    .requirements-content {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .intro-content {
+        height: 118vh;
+    }
+}
+
+@media screen and (max-width:334px) {
+    .intro-content {
+        height: 122vh;
+    }
+}
+
+@media screen and (max-width:312px) {
+    .header {
+        height: 105vh;
+    }
+    .intro-content {
+        height: 126vh;
+    }
+    .button {
+        padding-left: 17%;
+    }
+    .covid-content {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width:298px) {
+    .intro-content {
+        height: 135vh;
+    }
+}
+
+
+/* @media screen and (max-width:360px) {
     #navbarNav {
         padding-left: 0%;
     }
@@ -343,4 +531,4 @@ main {
     .button {
         padding-left: 40%;
     }
-}
+} */
