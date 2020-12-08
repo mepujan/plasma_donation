@@ -188,7 +188,7 @@
     }
     
     .plasma-footer {
-        height: 50vh;
+        height: 55vh;
         padding-top: 30px;
         background-color: #c4161c;
     }
@@ -209,6 +209,10 @@
     .plasma-footer a:hover {
         color: white;
         text-decoration: none;
+    }
+    
+    .col-md-3 .card-title {
+        color: blue;
     }
     
     @media screen and (max-width: 1200px) {
@@ -340,10 +344,17 @@
             padding-top: 20px;
         }
         .criteria-intro {
-            height: auot;
+            height: auto;
         }
         .plasma-footer {
             height: auto;
+        }
+        .col-md-3 .btn-danger {
+            width: 100%;
+            text-align: center;
+        }
+        .plasma-footer {
+            text-align: center;
         }
     }
     
