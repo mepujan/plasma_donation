@@ -191,7 +191,7 @@
     
     @media screen and (max-width: 1200px) {
         #navbarNav {
-            padding-left: 30%;
+            padding-left: 25%;
         }
         .header {
             height: auto + 10px;
@@ -216,6 +216,12 @@
         }
         .plasma-footer {
             height: auto;
+        }
+    }
+    
+    @media screen and (max-width: 1005px) {
+        #navbarNav {
+            padding-left: 25%;
         }
     }
     
