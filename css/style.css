@@ -179,9 +179,36 @@
         color: #c4161c;
     }
     
-    .doctor {
+    .doctor-section {
         background-color: #ffffff;
-        padding: 10vh 0;
+    }
+    
+    .col-md-3 {
+        padding: 10px;
+    }
+    
+    .plasma-footer {
+        height: 50vh;
+        padding-top: 30px;
+        background-color: #c4161c;
+    }
+    
+    .plasma-footer h4 {
+        color: #ffffff;
+    }
+    
+    .plasma-footer p {
+        color: #ffffff;
+    }
+    
+    .plasma-footer a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .plasma-footer a:hover {
+        color: white;
+        text-decoration: none;
     }
     
     @media screen and (max-width: 1200px) {
@@ -209,6 +236,9 @@
         .requirements-content {
             padding-top: 20px;
         }
+        .plasma-footer {
+            height: auto;
+        }
     }
     
     @media screen and (max-width:1000px) {
@@ -219,6 +249,9 @@
             height: auto;
         }
         .criteria-intro {
+            height: auto;
+        }
+        .plasma-footer {
             height: auto;
         }
     }
@@ -235,6 +268,9 @@
         }
         .requirements-content {
             padding-top: 20px;
+        }
+        .plasma-footer {
+            height: auto;
         }
     }
     
@@ -264,6 +300,9 @@
             padding-top: 20px;
         }
         .criteria-intro {
+            height: auto;
+        }
+        .plasma-footer {
             height: auto;
         }
     }
@@ -303,6 +342,9 @@
         .criteria-intro {
             height: auot;
         }
+        .plasma-footer {
+            height: auto;
+        }
     }
     
     @media screen and (max-width:494px) {
@@ -314,6 +356,9 @@
         }
         .requirements-content {
             padding-top: 70px;
+        }
+        .plasma-footer {
+            height: auto;
         }
     }
     
@@ -328,6 +373,9 @@
             height: auto;
         }
         .criteria-intro {
+            height: auto;
+        }
+        .plasma-footer {
             height: auto;
         }
     }
@@ -351,6 +399,9 @@
         .criteria-intro {
             height: auto;
         }
+        .plasma-footer {
+            height: auto;
+        }
     }
     
     @media screen and (max-width:414px) {
@@ -366,6 +417,9 @@
         .criteria-intro {
             height: auto;
         }
+        .plasma-footer {
+            height: auto;
+        }
     }
     
     @media screen and (max-width:411px) {
@@ -376,6 +430,9 @@
             height: auto;
         }
         .criteria-intro {
+            height: auto;
+        }
+        .plasma-footer {
             height: auto;
         }
     }
@@ -391,6 +448,9 @@
             padding-top: auto;
         }
         .criteria-intro {
+            height: auto;
+        }
+        .plasma-footer {
             height: auto;
         }
     }
@@ -414,6 +474,9 @@
         .button {
             padding-left: 20%;
         }
+        .plasma-footer {
+            height: auto;
+        }
     }
     
     @media screen and (max-width:360px) {
@@ -422,6 +485,9 @@
         }
         .button {
             padding-left: 22%;
+        }
+        .plasma-footer {
+            height: auto;
         }
         /* .intro-content {
         height: 85vh;
@@ -444,6 +510,9 @@
         .intro-content {
             height: auto + 10px;
         }
+        .plasma-footer {
+            height: auto;
+        }
     }
     
     @media screen and (max-width:335px) {
@@ -454,6 +523,9 @@
             height: auto;
         }
         .covid-content {
+            height: auto;
+        }
+        .plasma-footer {
             height: auto;
         }
     }
@@ -474,6 +546,9 @@
         .criteria-intro {
             height: auto;
         }
+        .plasma-footer {
+            height: auto;
+        }
     }
     
     @media screen and (max-width:312px) {
@@ -487,6 +562,9 @@
             padding-left: 17%;
         }
         .covid-content {
+            height: auto;
+        }
+        .plasma-footer {
             height: auto;
         }
     }
@@ -503,5 +581,8 @@
         }
         .covid-content {
             height: 45vh;
+        }
+        .plasma-footer {
+            height: auto;
         }
     }
