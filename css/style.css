@@ -144,21 +144,13 @@
     }
     
     .mid-section-intro {
-        height: 60vh;
+        height: 140vh;
         display: flex;
         flex-wrap: wrap;
     }
     
-    .card1 {
-        width: 35%;
-    }
-    
-    .card2 {
-        width: 33%;
-    }
-    
-    .card3 {
-        width: 32%;
+    .criteria-intro .card {
+        padding: 10px;
     }
     
     .mid-section-intro div {
@@ -309,7 +301,16 @@
         .plasma-footer {
             height: auto;
         }
+        .mid-section-intro .card {
+            width: 100%;
+            display: inline;
+        }
+        .plasma-footer .container {
+            display: flex;
+        }
     }
+    
+    @media screen and (max-width:770px) {}
     
     @media screen and (max-width:535px) {
         .header {
@@ -322,9 +323,7 @@
             display: inline;
             width: 100%;
         }
-        .mid-section-intro .card1,
-        .mid-section-intro .card2,
-        .mid-section-intro .card3 {
+        .mid-section-intro .card {
             width: 100%;
         }
         .requirements {
