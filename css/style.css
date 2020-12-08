@@ -85,19 +85,6 @@
     .form {
         padding-left: 30%;
     }
-    /* form.form button {
-    float: left;
-    width: 30px;
-    height: 50px;
-    padding-top: 20px;
-    padding-left: 10px;
-    background: transparent;
-    color: black;
-    font-size: 17px;
-    border: none;
-    border-left: none;
-    cursor: pointer;
-} */
     
     .button {
         width: 190px;
@@ -142,19 +129,11 @@
         background-color: #ffffff;
         padding: 10vh 0;
     }
-    /* .mid-section-intro {
-        height: 140vh;
-        display: flex;
-        flex-wrap: wrap;
-    } */
     
     .criteria-intro .card {
         padding: 10px;
         border: none;
     }
-    /* .mid-section-intro div {
-        width: 33.33%;
-    } */
     
     .card p {
         color: #828282;
@@ -163,7 +142,7 @@
     
     .requirements {
         background-color: #ffffff;
-        padding: 10vh 0;
+        padding: 20vh 0;
     }
     
     .criteria-intro h3 {
