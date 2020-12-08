@@ -142,7 +142,7 @@
     
     .requirements {
         background-color: #ffffff;
-        padding: 20vh 0;
+        padding: 3vh 0;
     }
     
     .criteria-intro h3 {
@@ -197,7 +197,7 @@
             height: auto + 10px;
         }
         .header-content {
-            padding-top: 10%;
+            padding-top: 15%;
         }
         .intro-content {
             height: auto;
@@ -231,6 +231,9 @@
         }
         .plasma-footer {
             height: auto;
+        }
+        .requirements-content {
+            padding-top: 20px;
         }
     }
     
@@ -330,6 +333,9 @@
         }
         .plasma-footer {
             text-align: center;
+        }
+        .requirements {
+            padding: 25vh 0;
         }
     }
     
