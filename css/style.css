@@ -188,6 +188,24 @@
     .col-md-3 .card-title {
         color: blue;
     }
+    /* ContactUs form */
+    
+    .contact-us-form .col-md-4 .container {
+        background-color: red;
+    }
+    
+    .g-3 {
+        padding: 20px;
+    }
+    
+    .plasma-info p,
+    h2 {
+        text-align: center;
+        color: white;
+    }
+    /* .plasma-info .fa-facebook {
+        text-align: center;
+    } */
     
     @media screen and (max-width: 1200px) {
         #navbarNav {
