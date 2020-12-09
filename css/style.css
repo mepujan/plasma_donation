@@ -198,15 +198,6 @@
         padding: 20px;
     }
     
-    .plasma-info p,
-    h2 {
-        text-align: center;
-        color: white;
-    }
-    /* .plasma-info .fa-facebook {
-        text-align: center;
-    } */
-    
     @media screen and (max-width: 1200px) {
         #navbarNav {
             padding-left: 25%;
@@ -281,7 +272,7 @@
     
     @media screen and (max-width:770px) {
         .header {
-            height: auto + 10px;
+            height: auto;
         }
         .header-content {
             padding-top: 15%;
@@ -321,7 +312,7 @@
     
     @media screen and (max-width:535px) {
         .header {
-            height: auto + 10px;
+            height: auto;
         }
         .intro-content {
             height: auto;
@@ -365,7 +356,7 @@
     
     @media screen and (max-width:494px) {
         .intro-content {
-            height: auto + 10px;
+            height: auto;
         }
         .covid-content {
             height: auto;
@@ -383,7 +374,7 @@
     
     @media screen and (max-width:480px) {
         .header {
-            height: auto + 10px;
+            height: auto;
         }
         .intro-content {
             height: auto;
@@ -401,7 +392,7 @@
     
     @media screen and (max-width:430px) {
         .header {
-            height: auto + 10px;
+            height: auto;
         }
         .intro-content {
             height: auto;
@@ -425,7 +416,7 @@
     
     @media screen and (max-width:414px) {
         .header {
-            height: auto + 10px;
+            height: auto;
         }
         .header-content {
             padding-top: 30%;
@@ -443,7 +434,7 @@
     
     @media screen and (max-width:411px) {
         .header {
-            height: auto + 10px;
+            height: auto;
         }
         .intro-content {
             height: auto;
@@ -458,7 +449,7 @@
     
     @media screen and (max-width:390px) {
         .header {
-            height: auto + 10px;
+            height: auto;
         }
         .intro-content {
             height: auto;
@@ -476,7 +467,7 @@
     
     @media screen and (max-width:375px) {
         .header {
-            height: auto+12px;
+            height: auto;
         }
         .intro-content {
             height: auto;
@@ -500,7 +491,7 @@
     
     @media screen and (max-width:360px) {
         .header {
-            height: auto + 1px;
+            height: auto;
         }
         .button {
             padding-left: 22%;
@@ -527,7 +518,7 @@
     
     @media screen and (max-width:338px) {
         .intro-content {
-            height: auto + 10px;
+            height: auto;
         }
         .plasma-footer {
             height: auto;
@@ -539,7 +530,7 @@
     
     @media screen and (max-width:335px) {
         .header {
-            height: auto + 10px;
+            height: auto;
         }
         .intro-content {
             height: auto;
@@ -557,7 +548,7 @@
     
     @media screen and (max-width:320px) {
         .header {
-            height: auto+15px;
+            height: auto;
         }
         .button {
             padding-left: 15%;
@@ -578,7 +569,7 @@
     
     @media screen and (max-width:312px) {
         .header {
-            height: auto + 10px;
+            height: auto;
         }
         .intro-content {
             height: auto;
@@ -599,7 +590,7 @@
     
     @media screen and (max-width:298px) {
         .header {
-            height: auto + 10px;
+            height: auto;
         }
         .intro-content {
             height: 100vh;
