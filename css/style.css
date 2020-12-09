@@ -203,7 +203,8 @@
             padding-left: 25%;
         }
         .header {
-            height: auto + 10px;
+            height: auto;
+            padding-bottom: 10vh;
         }
         .header-content {
             padding-top: 15%;
@@ -313,6 +314,7 @@
     @media screen and (max-width:535px) {
         .header {
             height: auto;
+            padding-bottom: 10vh;
         }
         .intro-content {
             height: auto;
@@ -482,7 +484,7 @@
             height: auto;
         }
         .button {
-            padding-left: 20%;
+            padding-left: 25%;
         }
         .plasma-footer {
             height: auto;
@@ -549,6 +551,7 @@
     @media screen and (max-width:320px) {
         .header {
             height: auto;
+            padding-bottom: 10vh;
         }
         .button {
             padding-left: 15%;
