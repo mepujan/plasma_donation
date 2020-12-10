@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <title>Search Donors</title>
+</head>
+
+<body style="background-image: url(./images/blood_packet.jpg); background-size: cover; background-position: center center;background-attachment: fixed;">
+    <div class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="m-f">Search for Plasma Donors.</h1>
+                <form class="form">
+                    <div class="form-group" id="blood-type">
+                        <label for="sel1" style="color:  #c4161c;">Blood Group</label>
+                        <select class="form-control" id="sel1" required>
+                            <option selected disabled>Choose Blood Group</option>
+                            <option>O+</option>
+                            <option>O-</option>
+                            <option>A+</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>B-</option>
+                            <option>AB+</option>
+                            <option>AB-</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="sel1" style="color: #c4161c;">Location</label>
+                        <select class="form-control" id="sel1" required>
+                            <option disabled selected>Choose Location</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+                    <div class="button">
+                        <button type="submit" class="btn btn-danger">Search</button>
+                    </div>
+                </form>
+                <div class="button-donor">
+                    <button type="submit" class="btn btn-danger">Become a donor</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
