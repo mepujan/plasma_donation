@@ -46,6 +46,11 @@
     .form {
         display: flex;
         align-items: center;
+        padding-left: 10%;
+    }
+    
+    .form-group {
+        width: 300px;
     }
     
     .intro-content div {
@@ -82,16 +87,26 @@
         font-size: 42px;
     }
     
-    .form {
-        padding-left: 30%;
+    .button {
+        width: 190px;
+        height: 40px;
+        padding-left: 20px;
+        align-content: center;
+        color: #c4161c;
+        margin-top: 25px;
     }
     
-    .button {
+    .button-donor {
         width: 190px;
         height: 40px;
         padding-left: 39%;
         align-content: center;
         color: #c4161c;
+        margin-top: 25px;
+    }
+    
+    .button-donor .btn-danger {
+        width: 190px;
     }
     
     .button .btn-danger {
@@ -188,6 +203,10 @@
     .col-md-3 .card-title {
         color: blue;
     }
+    
+    #blood-type {
+        padding-right: 20px;
+    }
     /* ContactUs form */
     
     .contact-us-form .col-md-4 .container {
@@ -219,7 +238,7 @@
             height: auto;
         }
         .button {
-            padding-left: 40%;
+            padding-left: 20px;
         }
         .requirements-content {
             padding-top: 20px;
@@ -255,10 +274,11 @@
     
     @media screen and (max-width:995px) {
         #navbarNav {
-            padding-left: 0%;
+            padding-left: 22%;
         }
         .button {
-            padding-left: 45%;
+            padding-left: 20px;
+            margin-top: 30px;
         }
         .mid-section-intro {
             height: auto;
@@ -272,6 +292,9 @@
     }
     
     @media screen and (max-width:770px) {
+        #navbarNav {
+            padding-left: 0%;
+        }
         .header {
             height: auto;
         }
@@ -288,10 +311,12 @@
             height: auto;
         }
         .form {
-            padding-left: 20%;
+            display: inline-flex;
+            align-items: center;
+            padding-left: 0%;
         }
-        .button {
-            padding-left: 37%;
+        .form-group {
+            width: auto;
         }
         .requirements-content {
             padding-top: 20px;
@@ -329,7 +354,8 @@
             display: inline;
             align-items: center;
         }
-        .button {
+        .button,
+        .button-donor {
             padding-left: 32%;
         }
         .header-content {
@@ -354,6 +380,12 @@
         .requirements {
             padding-top: 20vh;
         }
+        .form-group {
+            width: 100%;
+        }
+        #blood-type {
+            padding-right: 0px;
+        }
     }
     
     @media screen and (max-width:494px) {
@@ -371,6 +403,9 @@
         }
         .criteria-intro {
             height: auto;
+        }
+        .form-group {
+            width: 100%;
         }
     }
     
@@ -390,6 +425,9 @@
         .plasma-footer {
             height: auto;
         }
+        .form-group {
+            width: 100%;
+        }
     }
     
     @media screen and (max-width:430px) {
@@ -402,7 +440,8 @@
         .covid-content {
             height: auto;
         }
-        .button {
+        .button,
+        .button-donor {
             padding-left: 28%;
         }
         .requirements-content {
@@ -413,6 +452,9 @@
         }
         .plasma-footer {
             height: auto;
+        }
+        .form-group {
+            width: 100%;
         }
     }
     
@@ -432,6 +474,9 @@
         .plasma-footer {
             height: auto;
         }
+        .form-group {
+            width: 100%;
+        }
     }
     
     @media screen and (max-width:411px) {
@@ -446,6 +491,9 @@
         }
         .plasma-footer {
             height: auto;
+        }
+        .form-group {
+            width: 100%;
         }
     }
     
@@ -465,6 +513,9 @@
         .plasma-footer {
             height: auto;
         }
+        .form-group {
+            width: 100%;
+        }
     }
     
     @media screen and (max-width:375px) {
@@ -483,11 +534,15 @@
         .criteria-intro {
             height: auto;
         }
-        .button {
+        .button,
+        .button-donor {
             padding-left: 25%;
         }
         .plasma-footer {
             height: auto;
+        }
+        .form-group {
+            width: 100%;
         }
     }
     
@@ -495,7 +550,8 @@
         .header {
             height: auto;
         }
-        .button {
+        .button,
+        .button-donor {
             padding-left: 22%;
         }
         .plasma-footer {
@@ -516,6 +572,9 @@
         .criteria-intro {
             height: auto;
         }
+        .form-group {
+            width: 100%;
+        }
     }
     
     @media screen and (max-width:338px) {
@@ -527,6 +586,9 @@
         }
         .criteria-intro {
             height: auto;
+        }
+        .form-group {
+            width: 100%;
         }
     }
     
@@ -546,6 +608,9 @@
         .criteria-intro {
             height: auto;
         }
+        .form-group {
+            width: 100%;
+        }
     }
     
     @media screen and (max-width:320px) {
@@ -553,8 +618,12 @@
             height: auto;
             padding-bottom: 10vh;
         }
-        .button {
+        .button,
+        .button-donor {
             padding-left: 15%;
+        }
+        .form-group {
+            width: 100%;
         }
         .intro-content {
             height: auto;
@@ -567,6 +636,9 @@
         }
         .plasma-footer {
             height: auto;
+        }
+        .form-group {
+            width: 100%;
         }
     }
     
@@ -577,7 +649,8 @@
         .intro-content {
             height: auto;
         }
-        .button {
+        .button,
+        .button-donor {
             padding-left: 17%;
         }
         .covid-content {
@@ -588,6 +661,9 @@
         }
         .criteria-intro {
             height: auto;
+        }
+        .form-group {
+            width: 100%;
         }
     }
     
@@ -606,5 +682,8 @@
         }
         .plasma-footer {
             height: auto;
+        }
+        .form-group {
+            width: 100%;
         }
     }
