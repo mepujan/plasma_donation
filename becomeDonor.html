@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <title>Become a Donor</title>
+</head>
+
+<body>
+    <section class="becomeDonorform">
+        <div class="header-form" style="text-align: center; color: red; font-size: x-large;padding-bottom: 20px;">
+            <h1>Become a Donor</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 style="padding-bottom: 15px;">Donor Registration</h2>
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="firstname" class="form-label">First Name  <span style="color: red;">*</span> </label>
+                            <input type="text" class="form-control" id="fname" placeholder="First Name*" required><br/>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="firstname" class="form-label">Last Name  <span style="color: red;">*</span> </label>
+                            <input type="text" class="form-control" id="lname" placeholder="Last Name*" required><br/>
+                        </div>
+                        <div class="col-12">
+                            <label for="email" class="form-label">Email  <span style="color: red;">*</span> </label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email*" required><br/>
+                        </div>
+                        <div class="col-12">
+                            <label for="phone" class="form-label">Phone  <span style="color: red;">*</span> </label>
+                            <input type="tel" class="form-control" id="phone" pattern="(98)[0-9]{8}" placeholder="Mobile Number*" title="Mobile Number starts with 98..... and length is 10." required><br/>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="address" class="form-label">Address <span style="color: red;">*</span> </label>
+                            <input type="text" class="form-control" id="address" placeholder="Address*" required><br/>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="blood-group" class="form-label">Blood Group <span style="color: red;">*</span></label>
+                            <select class="form-control" id="sel1" required>
+                                <option selected disabled>Choose Blood Group</option>
+                                <option>O+</option>
+                                <option>O-</option>
+                                <option>A+</option>
+                                <option>A-</option>
+                                <option>B+</option>
+                                <option>B-</option>
+                                <option>AB+</option>
+                                <option>AB-</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label for="formFile" class="form-label" style="color: red;">Upload Medical History for Verification  <span style="color: red;">*</span></label>
+                                <input class="form-control" type="file" id="formFile" required>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked" style="color: red;">
+                                  Yes, I am eligible for Donation.
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12" style="padding-top: 10px; padding-bottom: 20px;">
+                            <button type="submit" class="btn btn-danger">Register as Donor</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h2 style="padding-bottom: 15px;">Donor Eligibility</h2>
+                    <div class="container" style="line-height: 25px;">
+                        <ol style="color: red;">
+                            <li>Donor should be of the age from 17 years to 60 years.</li>
+                            <li>Donor should be of more than 45kg.</li>
+                            <li>Donor should have 12gm or more hameoglobin in the blood.</li>
+                            <li>Donor should be in good health and should not suffered from any other serious illness.</li>
+                            <li>Donor must be previously confirmed positive for COVID-19 by a laboratory test.</li>
+                            <li>Donor must be fully recovered from the virus and symptoms free for atleast 28 days.</li>
+                        </ol>
+                        <p style="text-align: center; color: red;">Please note: a history of donating blood isnot required.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+
+</body>
+
+</html>
